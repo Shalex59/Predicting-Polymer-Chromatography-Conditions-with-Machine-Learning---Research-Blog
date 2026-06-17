@@ -12,11 +12,11 @@ $text-color: #3a3a3a;
 @import "minima";
 
 body {
-  padding-top: 70px;
+  padding-top: 32px;
 }
 
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
+  background-color: #eef2f6;
 }
 
 .site-header .wrapper {
