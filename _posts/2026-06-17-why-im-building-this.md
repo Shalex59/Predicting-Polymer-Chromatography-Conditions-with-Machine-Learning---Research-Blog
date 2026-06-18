@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Motivation and Background"
+title: "My first post: Motivation and Background"
 date: 2026-06-17
 ---
 June 17 2026 Entry
