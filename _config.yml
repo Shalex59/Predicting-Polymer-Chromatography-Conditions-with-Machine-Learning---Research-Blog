@@ -1,6 +1,7 @@
 title: Predicting Polymer Chromatography Conditions with Machine Learning
-description: Research on predicting polymer LCCC conditions with machine learning, developed using the PolyCrit database in collaboration with staff at the University of Memphis.
+description: Research on predicting polymer LCCC conditions with machine learning, developed using the PolyCrit database in collaboration with the University of Memphis.
 theme: minima
 header_pages:
   - about.md
+  - polyic.md
   - blog.md
