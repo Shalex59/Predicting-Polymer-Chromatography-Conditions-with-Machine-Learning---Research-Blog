@@ -13,7 +13,7 @@ Every entry in this dataset is the same polymer, PEG. There's no variation to lo
 
 **2. Phase, and why I'm narrowing to reverse phase**
 
-Before getting into the solvent details, one factor needs explaining first: phase. Every stationary phase in the dataset is categorized as normal, reverse, or HILIC, and this categorization is what actually sorts the rest of the data into two very different chemical worlds. A normal-phase column has a polar surface, while a reverse-phase column has a hydrophobic, carbon-coated surface, and the solvent recipe that works for one is generally not the recipe that works for the other. Because of that, lumping both together would blur the patterns in the data rather than reveal them.
+Before getting into the solvent details, one factor needs explaining first: phase. Every stationary phase in the dataset is categorized as normal, reverse, or HILIC. A normal-phase column has a polar surface, while a reverse-phase column has a hydrophobic, carbon-coated surface, and the solvent recipe that works for one is generally not the recipe that works for the other. Because of that, lumping both together would blur the patterns in the data rather than reveal them.
 
 Of the 129 total PEG entries, 88 are reverse phase, 26 are normal phase, 2 are HILIC, and 13 don't report a phase at all. Since reverse phase makes up the large majority of well-documented entries, the rest of this analysis, and the model test below, will focus only on reverse-phase data going forward.
 
@@ -54,4 +54,4 @@ Solvent amounts were originally reported in two different units, some by weight 
 
 Within the reverse-phase entries, there are 39 distinct named stationary phase products overall, the two most common being Nucleosil C18 (22 entries) and Novapak C18 (8 entries), both carbon-18-coated columns. For base material, silica dominates heavily across the dataset (111 of 129 entries total), with a small number of alternative materials making up the rest.
 
-That gives a clear enough picture of the data to move on to the actual experiment. Tomorrow, I'll set up and run the machine learning test described above, training a model on part of this reverse-phase data and seeing how well it can tell a real working recipe apart from a broken one.
+That gives a clear enough picture of the data to move on to the actual experiment. On the 22nd, I'll set up and run the machine learning test described above, training a model on part of this reverse-phase data and seeing how well it functions.
