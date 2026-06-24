@@ -30,7 +30,7 @@ After combining entries that listed the same solvents in a different order, ther
 - Acetonitrile + Methanol + Water — 1 entry
 - Chloroform + Heptane + Methanol — 1 entry
 
-But since water itself isn't a solvent pair, we will exclude it from this data set.
+But since water itself isn't a solvent pair, we will exclude it from this data set (therefore 7 left）.
 
 Three systems, methanol/water, acetonitrile/water, and acetone/water, make up 78 of the 88 entries between them. Everything else is rare, several groups appear only once, twice, or three times, therefore relatively insignificant in terms of this specific test.
 
@@ -54,4 +54,3 @@ Solvent amounts were originally reported in two different units, some by weight 
 
 Within the reverse-phase entries, there are 39 distinct named stationary phase products overall, the two most common being Nucleosil C18 (22 entries) and Novapak C18 (8 entries), both carbon-18-coated columns. For base material, silica dominates heavily across the dataset (111 of 129 entries total), with a small number of alternative materials making up the rest.
 
-That gives a clear enough picture of the data to move on to the actual experiment. On the 22nd, I'll set up and run the machine learning test described above, training a model on part of this reverse-phase data and seeing how well it functions.
