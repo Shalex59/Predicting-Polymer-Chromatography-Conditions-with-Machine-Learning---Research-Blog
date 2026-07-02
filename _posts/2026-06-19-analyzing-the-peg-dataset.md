@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 1: Analyzing the PEG Dataset"
+title: "Analyzing the PEG Dataset"
 date: 2026-06-19
 ---
 June 19 2026 Entry
