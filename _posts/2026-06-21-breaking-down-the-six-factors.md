@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Breaking Down the Six Factors"
-date: 2026-06-20
+date: 2026-06-21
 ---
-June 20 2026 Entry
+June 21 2026 Entry
 
-Yesterday I narrowed the PEG dataset down to six factors that matter most: the polymer, the solvents, the solvent ratio, the temperature, the stationary phase, and the base material. Today I looked closer at what each of those six factors actually contains, then set up a specific test to see whether a machine learning model can learn anything useful from them. I did decide to combine 2 factors (base material and stationary phase temporarily for this post as they are similar enough and can be grouped). During the actual algorithm run, they will be seperated again into 2 factors.
+I previously narrowed the PEG dataset down to six factors that matter most: the polymer, the solvents, the solvent ratio, the temperature, the stationary phase, and the base material. Today I looked closer at what each of those six factors actually contains, then set up a specific test to see whether a machine learning model can learn anything useful from them. I did decide to combine 2 factors (base material and stationary phase temporarily for this post as they are similar enough and can be grouped). During the actual algorithm run, they will be seperated again into 2 factors.
 
 **1. Polymer**
 
