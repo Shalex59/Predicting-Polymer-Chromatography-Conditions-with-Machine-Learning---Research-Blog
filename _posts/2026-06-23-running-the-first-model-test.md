@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Day 3: Running the First Model Test"
+title: "Running the First Model Test"
 date: 2026-06-23
 ---
+June 23 Post:
+
 After two days of breaking down the reverse-phase PEG data, today I actually ran the first machine learning test on it. Here is how it went:
 **DISCLAIMER: For the coding side, I used AI assistance, including Claude, to help write and run the scripts for the machine learning tests; the design of the test and the interpretation of the results are my own and my mentor's.**
 
