@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 2: Breaking Down the Six Factors"
+title: "Breaking Down the Six Factors"
 date: 2026-06-20
 ---
 June 20 2026 Entry
