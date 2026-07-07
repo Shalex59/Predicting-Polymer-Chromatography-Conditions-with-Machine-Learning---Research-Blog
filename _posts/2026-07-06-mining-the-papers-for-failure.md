@@ -4,6 +4,7 @@ title: "Mining the Papers for Failure"
 date: 2026-07-06
 ---
 July 6 2026 Entry
+
 As stated by the previous post, if a model is ever to succeed, it needs negative results (in this case, defined as data points of experiments that did not reach critical point). A model that's only seen a handful of solvent groups can't tell you anything useful about a new one. So instead of running another model test, I spent this stretch going back into the literature and extracting data through the means of commercial LLMs. 
 
 That turns out to be less simple than it sounds because "didn't reach it" isn't one thing. A polymer can miss the critical point by being excluded from the pores entirely (SEC mode), by adsorbing too strongly onto the column (LAC mode), or by just not dissolving in the mobile phase at all. Those are three different failure modes and tracking which is which matters.
