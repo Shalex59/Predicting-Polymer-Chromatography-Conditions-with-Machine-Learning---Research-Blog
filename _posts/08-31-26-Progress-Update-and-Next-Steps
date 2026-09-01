@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Progress Update and Next Steps"
+date: 2026-08-31
+---
+It's been a while. Good to be back though. School's back, the homework pile is growing daily, and blog posts have had to take a backseat. However, this there has been no shortage of actual results and research during the time i was gone. If anything, the last few weeks have been some of the most productive ones yet.
+
+We have successfully fixed the extraction code and got satisfactory results from it. I also got to work with a bigger team than usual on this, including Xiaofei Zhang, the CS teacher here at UofM, plus a group of chemistry and CS grad students who've been helping push things forward. And probably the biggest and most important update of all, we have officially moved into the standardization stage. Right now we are comparing the following side by side: an open-source AI pipeline the grad students built, my own pipeline (the commercial, Claude-based one), and hand-pulled data from the actual PolyCrit database.
+
+**More on Standardization**
+So here I wanted to write a bit about the problems with standardization. With commercial and open source LLMs, their way of "going about" things is different. What I mean by that is, the final attributes of a certain data entry may differ in name. For example, PEG (Polyethylene Glycol) could be written as poly(ethylene glycol) or PEO (Polyethylene oxide), which is still a part of the PEG family. 
+
+One of the more interesting problems I ran into: a solvent list like "2-octanol / 1,2-dichlorobenzene" was getting split into 3 different conditions. THere was nothing in the code to tell the LLM to not split it, so it saw this as multiple compacted results. 
+
+However, despite these problems I encountered, my pipeline's PEG, PLA, and PPO extractions against the hand-curated tables gives F1 scores (a standard measure combining precision and recall) in the 0.52–0.56 range overall. It's ok for a first try, but that is very average. I am in the process of building chemical tables into the code to ensure I don't have to hand code each entry in. Regardless, determining exactly how two terms are strictly "the same" is still a answer we are working towards. I have a presentation at SERMACS from November 4-7, so I'll be working towards that.periodically update this blog post with more updates.
+
