@@ -3,6 +3,7 @@ layout: post
 title: "Progress Update and Next Steps"
 date: 2026-08-31
 ---
+August 31, 2026 Entry
 It's been a while. Good to be back though. School's back, the homework pile is growing daily, and blog posts have had to take a backseat. However, this there has been no shortage of actual results and research during the time i was gone. If anything, the last few weeks have been some of the most productive ones yet.
 
 We have successfully fixed the extraction code and got satisfactory results from it. I also got to work with a bigger team than usual on this, including Xiaofei Zhang, the CS teacher here at UofM, plus a group of chemistry and CS grad students who've been helping push things forward. And probably the biggest and most important update of all, we have officially moved into the standardization stage. Right now we are comparing the following side by side: an open-source AI pipeline the grad students built, my own pipeline (the commercial, Claude-based one), and hand-pulled data from the actual PolyCrit database.
